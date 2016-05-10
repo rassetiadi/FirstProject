@@ -1,0 +1,43 @@
+body {
+  font: 13px/20px "Lucida Grande", Tahoma, Verdana, sans-serif;
+  color: #404040;
+  background:url("../img/gambar1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  position: relative;
+  background: rgba(255,255,255,0.4);
+  width: 390px;
+  margin: 150px auto;
+  font: 13px/20px "Lucida Grande", Tahoma, Verdana, sans-serif;
+  border: 1px solid #ffffff;
+}
+
+.login {
+  position: relative;
+  margin: 0 auto;
+  width: 340px;
+}
+
+.loginTitle {
+  border-bottom: 2px solid #eeeeee;
+  margin-bottom: 20px;
+}
+
+.login p.remember_me label {
+  font-size: 12px;
+  color: #777;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.login p.remember_me input {
+  position: relative;
+  bottom: 1px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
